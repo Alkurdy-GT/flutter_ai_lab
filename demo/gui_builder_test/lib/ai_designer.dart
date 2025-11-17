@@ -36,7 +36,7 @@ class _AiDesignerState extends State<AiDesigner> {
       }
 
       setState(() {
-        model = GenerativeModel(model: 'gemini-2.5-flash', apiKey: apiKey);
+        model = GenerativeModel(model: 'gemini-2.5-flash', apiKey: "apiKey");
         aiOutput = 'Press "Generate" to get ideas.';
         isLoading = false;
       });
